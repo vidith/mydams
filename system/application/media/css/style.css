@@ -1,0 +1,245 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #787878;
+}
+
+html, body, #wrapper, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+img { border: 0; }
+
+a {
+    color: #525d8c;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 800px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+
+h1 {
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 4px 0 0 0;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 10px;
+}
+
+.left {
+    float: left;
+    margin: -1px 5px 0px 0px;
+}
+
+.readmore {
+    text-align: right;
+}
+
+#nav {
+  background: red;
+  position: absolute;
+  top: 48px;
+  left: 448px;
+  width: 106px;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #8dc445 url(images/menu_bg.gif) repeat-y;
+}
+
+#nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+
+#nav a {
+    color: #387009;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0 6px 30px;
+}
+
+* html #nav a {
+    width: 100%;
+    w\idth: 76px;
+    padding: 5px 0 5px 30px;
+    padd\ing: 6px 0 6px 30px;
+}
+
+#nav a:hover {
+    background: #5b8c29;
+    color: white;
+}
+
+#booking {
+    position: absolute;
+    top: 0;
+    left: 555px;
+    width: 245px;
+    height: 172px;
+    background: #1ab0e7;
+    padding: 0;
+}
+
+#booking h2 {
+    background: #27a2ce;
+    color: #0c4366;
+    border-bottom: 1px solid white;
+    padding: 7px 15px;
+}
+
+#booking .jtype {
+    text-align: center;
+    padding: 0 0.7em 1em 0em;
+}
+
+#booking form {
+    margin: 1.5em 0 0.5em 1.5em;
+    padding: 0;
+}
+
+#booking th, #booking td {
+    text-align: left;
+    padding-right: 7px;
+    padding-bottom: 10px;
+    color: #0c4366;
+}
+
+#booking .text {
+    width: 90px;
+    border: 1px solid #0c8dbd;
+}
+
+#booking .submit {
+    border: 1px solid #0a5f7e;
+    background: #177da2;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#booking .advanced {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#booking,
+#booking a {
+    color: #0c4366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#booking img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+#main {
+    padding-top: 48px;
+    width: 446px;
+    position: relative;
+}
+
+#main .inner {
+    position: relative;
+    margin: 0 0 0 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+#packagesheader {
+    position: absolute;
+    top: 113px;
+    margin-top: 6em;
+    left: 448px;
+}
+
+#packages {
+    float: right;
+    clear: both;
+    width: 315px;
+    padding-top: 143px;
+    margin-top: 6em;
+    margin-right: 18px;
+    line-height: 1.6;
+}
+
+* html #packages {
+    margin-right: 8px;
+}
+
+#packages h2 {
+    margin-left: 0px;
+}
+
+#packages .golden {
+    color: #ba9f35;
+    background: url(images/gold.gif) no-repeat;
+    padding: 5px 0 3px 30px;
+}
+
+#packages .silveren {
+    color: #b4b4b4;
+    background: url(images/silver.gif) no-repeat;
+    padding: 5px 0 3px 30px;
+}
+
+#special {
+    border-top: 1px solid #ccc;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 7px 15px;
+}
+
+.blue {
+    color: #4165af;
+}
+
+.green {
+    margin-top: 3em;
+    color: #598e1e;
+}
